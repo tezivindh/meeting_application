@@ -27,6 +27,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
+            unsafe_disableDevelopmentModeWarnings: true,
           },
           variables: {
             colorText: "#fff",
